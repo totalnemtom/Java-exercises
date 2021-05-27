@@ -1,5 +1,7 @@
 package human;
 
+import java.util.ArrayList;
+
 public class First {
 
     public static void main(String[] args) {
@@ -13,6 +15,13 @@ public class First {
         System.out.println(isSecondHumanHasName);
         System.out.println(secondHumanWhoIsEnglish.englishSpeaking());
         System.out.println(secondHumanWhoIsEnglish.useComputer());
+
+        ArrayList<Human> englishMen = new ArrayList<Human>();
+        EnglishMan watson = new EnglishMan("Watson", 27);
+
+        englishMen.add(watson);
+        watson = (EnglishMan) englishMen.get(0);
+        System.out.println(englishMen.get(0));
 
 
     }
