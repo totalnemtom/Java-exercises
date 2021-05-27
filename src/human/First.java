@@ -1,7 +1,5 @@
 package human;
 
-import arrayvsarrayList.ArrayVsArrayList;
-
 import java.util.ArrayList;
 
 public class First {

@@ -19,21 +19,11 @@ public abstract class Human {
         return this.name;
     }
 
-    void setName(String name){
-
-        this.name = name;
-    }
-
     int getAge(){
 
         return this.age;
     }
 
-    void setAge(int age){
-
-    this.age = age;
-
-    }
     @Override
     public String toString(){
         return "[name: " + this.name +
