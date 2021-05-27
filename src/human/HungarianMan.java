@@ -4,12 +4,23 @@ public final class HungarianMan extends Human {
 
     private final String origin;
 
-    public HungarianMan(String name, int age, String origin){
+    @Override
+    public String toString() {
+        return "HungarianMan{" +
+                "origin='" + origin + '\'' +
+                "name='" + getName() + '\'' +
+                "age='" + getAge() + '\'' +
+                '}';
+    }
+
+    public HungarianMan(String name, int age){
         super(name, age);
-        this.origin = origin;
+        this.origin = "Hungarian";
     }
 
     public String getOrigin() {
         return origin;
     }
+
+
 }

@@ -22,7 +22,9 @@ public class First {
         englishMen.add(watson);
         watson = (EnglishMan) englishMen.get(0);
         System.out.println(englishMen.get(0));
-        System.out.println((englishMen.get(0).toString()));
+
+        HungarianMan geza = new HungarianMan("Géza", 32);
+        System.out.println(geza);
 
     }
 
