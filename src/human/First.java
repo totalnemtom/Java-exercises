@@ -1,5 +1,7 @@
 package human;
 
+import arrayvsarrayList.ArrayVsArrayList;
+
 import java.util.ArrayList;
 
 public class First {
@@ -22,7 +24,7 @@ public class First {
         englishMen.add(watson);
         watson = (EnglishMan) englishMen.get(0);
         System.out.println(englishMen.get(0));
-
+        System.out.println((englishMen.get(0).toString()));
 
     }
 
